@@ -1,10 +1,32 @@
 # Mistrz-ortografii
 
-Do uruchomienia wymagany jest Python 3 wraz
-z modułem python3-tk (tkinter). Program należy uruchomić przez
-IDLE lub przez bash:
+Projekt powstał na konkurs programistyczny (Daj Się Poznać 2017).
+To jedna z pierwszych aplikacji z GUI, które napisałem po powrocie do programowania.
+Użyłem tkinter, list słów w pliku txt i prostych mechanizmów losowania + liczenia punktów.
+Został w formie, w jakiej był rozwijany.
 
-$ python3 start1.15.py
+Aplikacja edukacyjna do nauki polskiej ortografii – trudnych par liter (ch/h, rz/ż, u/ó).
+
+Losuje słowo ze słownika, pokazuje je z brakującą częścią i czeka na wybór poprawnej opcji przez przyciski.  
+Liczy skuteczność w procentach i liczbę wylosowanych słów.
+
+## Co robi
+
+- Wczytuje słowa z pliku proste.txt
+- Losuje jedno słowo i ukrywa fragment (np. t_órz zamiast tchórz)
+- Wyświetla 6 przycisków: ch, hh, rz, uo, uu, zz
+- Po kliknięciu sprawdza poprawność, aktualizuje licznik i procent skuteczności
+- Prosty interfejs w tkinter
+
+## Wymagania
+
+Python 3 + tkinter (standardowa biblioteka)
+
+### Uruchomienie
+
+```bash
+python start1.15.py
+```
 
 ----------------------------------------------------------
 Mistrz Ortografii wersja 1.0
@@ -26,4 +48,5 @@ v1.15
 ----------------------------------------------------------
 TODO:
 - dodanie nowej funkcjonalności
-- ubranie kodu w klasy
+- zrobić wersję exe
+- ubranie kodu w klasy oop
