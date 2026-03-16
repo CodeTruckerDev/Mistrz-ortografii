@@ -18,6 +18,14 @@ Liczy skuteczność w procentach i liczbę wylosowanych słów.
 - Po kliknięciu sprawdza poprawność, aktualizuje licznik i procent skuteczności
 - Prosty interfejs w tkinter
 
+## Zrzuty ekranu
+
+![Zrzut ekranu](mistrz_1.png)
+
+![Zrzut ekranu](mistrz_2.png)
+
+![Zrzut ekranu](mistrz_3.png)
+
 ## Wymagania
 
 Python 3 + tkinter (standardowa biblioteka)
@@ -50,3 +58,15 @@ TODO:
 - dodanie nowej funkcjonalności
 - zrobić wersję exe
 - ubranie kodu w klasy oop
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file.
+
+**Attribution appreciated:** If you use this code, a link back to this repo
+would be awesome (but not required). It helps other developers find the original
+work and supports independent creators like me.
+
+---
